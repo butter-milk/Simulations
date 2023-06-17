@@ -6,7 +6,7 @@ Claim: For N>2, tic tac toe will always be won by player 1.
 Proof:
 We only have to proof the game for N=3, since for any N>3, we can choose any three dimensions and win using this subspace. E.g. when playing on $[3]^8$ use the subspace {(x,y,z,1) | x,y,z $\in${1,2,3} }.
 
-Note that, if you were to play a game in more than 3 dimensions, where player 2 would place a circle on a square which was not in the subspace of your choice, you have a free win anyway. Since player 1 just moves their cross next to the one of player 2, if it is possible in their chosen set of dimensions, Then you can skip to step 3) in the method below. So we do not have to consider this case.
+Note that, if you were to play a game in more than 3 dimensions, where player 2 would place a circle on a square which was not in the subspace of your choice, you have a free win anyway. Since player 1 can place a piece such that three in a row can be made with the middle element of his chosen 3 dimensional subspace, where we have the condition that the last piece should not be in the set of neighbours of Player 2s circle (which is possible, since the entire 3d playing board can never be contained in the set of neighbours of player 2s circle). Now we can continue with step 3 in the method below. So we do not have to analyse this case any furhter.
 
 Therefore, we consider the space {(x,y,z) | x,y,z $\in${1,2,3} }. A winning tactic for player 1 is the following:
 
